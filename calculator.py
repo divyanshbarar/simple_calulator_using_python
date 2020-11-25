@@ -21,13 +21,7 @@ def add():
     f_num=int(first_number)
     e.delete(0,END)
 
-def minus():
-    first_number=e.get()
-    global f_num
-    global math
-    math="minus"
-    f_num=int(first_number)
-    e.delete(0,END)
+
 
 def multiply():
     first_number=e.get()
